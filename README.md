@@ -10,11 +10,10 @@ This project is a responsive landing page that showcases various sections with d
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [References](#references)
 
 ## Demo
 
-https://jackgardnerdev.github.io/manipulating-the-dom/
+
 
 ## Features
 
@@ -28,7 +27,7 @@ https://jackgardnerdev.github.io/manipulating-the-dom/
 
 Clone the repository to your local machine using:
 
-https://github.com/JackGardnerDev/manipulating-the-dom.git
+
 
 ## Usage
 
@@ -48,9 +47,3 @@ Your contribution will be reviewed, and once approved, it will be merged into th
 ## License
 
 This project is licensed under the MIT License.
-
-## References
-
-Udacity Front End Web Developer Project 2 Assignment Template
-
-https://github.com/udacity/cd0428-landing-page/tree/main

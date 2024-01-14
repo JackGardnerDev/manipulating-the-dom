@@ -13,7 +13,7 @@ This project is a responsive landing page that showcases various sections with d
 
 ## Demo
 
-
+https://jackgardnerdev.github.io/manipulating-the-dom/
 
 ## Features
 
@@ -27,7 +27,7 @@ This project is a responsive landing page that showcases various sections with d
 
 Clone the repository to your local machine using:
 
-
+https://github.com/JackGardnerDev/manipulating-the-dom.git
 
 ## Usage
 

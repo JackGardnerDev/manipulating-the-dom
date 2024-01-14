@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Manipulating The DOM">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jack Gardner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating The DOM</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<!-- Navigation -->
+<header class="page-header">
+    <nav class="navbar-menu">
+        <ul id="navbar-list"></ul>
+    </nav>
+</header>
+
+<!-- Content -->
+<main>
+    <!-- Landing Header -->
+    <header class="main-hero">
+        <h1>Landing Page</h1>
+    </header>
+    <!-- Section 1 -->
+    <section id="section1" data-nav="Section 1" class>
+        <div class="landing-container">
+            <h2 onclick="toggleSection('section-1-content')">HTML</h2>
+            <p id="section-1-content">HTML, or HyperText Markup Language, is the fundamental building block of web content. It structures and formats documents using tags that define elements like headings, paragraphs, links, and images. HTML enables the creation of web pages by specifying the organization and presentation of information. It forms the backbone of the World Wide Web, providing a standardized markup language understood by browsers to render content. HTML works in conjunction with cascading style sheets (CSS) and JavaScript to create interactive, visually appealing, and dynamic web experiences.</p>
+        </div>
+    </section>
+    <!-- Section 2 -->
+    <section id="section2" data-nav="Section 2" class>
+        <div class="landing-container">
+            <h2 onclick="toggleSection('section-2-content')">CSS</h2>
+            <p id="section-2-content">CSS, or Cascading Style Sheets, is a styling language crucial for web development. It enhances HTML documents by controlling their visual presentation, such as layout, colors, and fonts. CSS separates design from structure, enabling consistent and responsive styling across various devices. Selectors target HTML elements, determining their appearance, and properties define specific style attributes. CSS fosters cleaner code and efficient website maintenance, promoting a modular and scalable approach. It collaborates with HTML and JavaScript, playing a vital role in creating aesthetically pleasing and user-friendly web interfaces.</p>
+        </div>
+    </section>
+    <!-- Section 3 -->
+    <section id="section3" data-nav="Section 3" class>
+        <div class="landing-container">
+            <h2 onclick="toggleSection('section-3-content')">JavaScript</h2>
+            <p id="section-3-content">JavaScript (JS) is a dynamic, high-level programming language widely used for web development. As a client-side scripting language, it runs in web browsers, enabling interactive and dynamic content. JS facilitates real-time updates, user interactions, and asynchronous operations. It works seamlessly with HTML and CSS, enhancing the functionality of web pages by manipulating the Document Object Model (DOM). As a versatile language, it supports both front-end and back-end development through frameworks like Node.js. JavaScript's adaptability, event-driven nature, and broad community support make it a cornerstone for building modern, responsive, and engaging web applications.</p>
+        </div>
+    </section>
+    <!-- Section 4 -->
+    <section id="section4" data-nav="Section 4" class>
+        <div class="landing-container">
+            <h2 onclick="toggleSection('section-4-content')">Markdown</h2>
+            <p id="section-4-content">Markdown is a lightweight markup language designed for simple, readable text formatting. It uses plain-text syntax with minimal symbols, allowing users to easily create formatted documents without complex coding. Originally developed by John Gruber, Markdown is widely used for creating content on the web, including documentation, blogs, and README files. It provides a straightforward way to structure text, add headers, lists, links, and emphasize content. Markdown files can be easily converted into HTML, making it a popular choice for writing and publishing content online with a focus on simplicity and accessibility.</p>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="page-footer">
+    <p>Manipulating The DOM</p>
+    <button id="scrollToTopBtn" class="scroll-to-top-btn" onclick="scrollToTop()">Top</button>
+</footer>
+    
+</body>
+</html>

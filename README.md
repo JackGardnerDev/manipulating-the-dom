@@ -1,6 +1,6 @@
 # Manipulating The DOM
 
-This project is a responsive landing page that showcases various sections with dynamic navigation. It is built using HTML, CSS, and JavaScript. The page features a navigation bar, multiple sections with toggle functionality, a scroll-to-top button, and responsive design for different devices.
+This project is a responsive landing page that showcases various sections with dynamic navigation. It is built using HTML, CSS, and JavaScript. The page features a navigation bar, multiple sections with toggle functionality, a scroll-to-top button, and a responsive design for different devices.
 
 ## Table of Contents
 
@@ -10,6 +10,7 @@ This project is a responsive landing page that showcases various sections with d
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [References](#references)
 
 ## Demo
 
@@ -47,3 +48,9 @@ Your contribution will be reviewed, and once approved, it will be merged into th
 ## License
 
 This project is licensed under the MIT License.
+
+## References
+
+Udacity Front End Web Developer Project 2 Assignment Template
+
+https://github.com/udacity/cd0428-landing-page/tree/main
